@@ -1,0 +1,20 @@
+{
+    "binDir": "osx-bin",
+    "initDir": "file_init",
+    "templateDir": "osx-templates",
+
+    "md": ["", "osx-bin/md.convert.sh", "osx-templates/md.template.html"],
+    "tex.md": ["", "osx-bin/md.convert.sh", "osx-templates/tex.md.template.html"],
+    "markdown": ["", "osx-bin/md.convert.sh", "osx-templates/md.template.html"],
+    "poem.md": ["", "osx-bin/md.convert.sh", "osx-templates/poem.template.html"],
+    "remark.md": ["", "bin/remark.md.convert.sh", "templates/remark.md.template.html"],
+    "rst": ["", "osx-bin/rst.convert.sh", "osx-templates/rst.template.html"],
+    "html": ["", "", "templates/html.template.html"],
+    "init.html": ["", "", "templates/init.template.html"],
+    "sh": ["", "bin/sc.convert.sh", "templates/sc.template.html"],
+    "json": ["", "bin/sc.convert.sh", "templates/sc.template.html"],
+    "template.html": ["osx-init/template.init.html", "", ""],
+    "zip": ["", "", "templates/sc.template.html"],
+
+    "default": ["file_init/default.init.md", "bin/router.convert.sh", "tempates/marboo.template.html"]
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+# author: amoblin
+# create date: Mon Feb  4 23:15:46 2013
+# note: make localized directory.
+
+local=`locale|grep LC_CTYPE|awk -F'"' '{print $2}'|awk -F'.' '{print $1}'`
+
+mkdir -p "$1".localized/.localized
+echo \"$1\" = \"$2\"\; > "$1".localized/.localized/$local.strings

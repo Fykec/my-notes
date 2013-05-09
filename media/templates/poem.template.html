@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> poem.template </title>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="date" content="2013-02-04 23:43:38" />
+        <meta name="generator" content="Marboo 0.6: http://marboo.biz" />
+        <link rel="stylesheet" type="text/css" href="/media/css/marboo.css" media="screen" />
+
+        <link rel="stylesheet" type="text/css" href="/media/css/poem.css" media="screen"/>
+        <script src="/media/lib/markdown.js" type="text/javascript"></script>
+        <script src="/media/lib/marboo.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <textarea id="source" style="display:none">%s</textarea>
+        <div id="poem" />
+        <script>
+            var source=document.getElementById("source").value;
+            document.getElementById("poem").innerHTML = markdown.toHTML(source);
+        </script>
+    </body>
+</html>
