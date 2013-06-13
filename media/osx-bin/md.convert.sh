@@ -7,5 +7,5 @@
 
 name=`basename "$1"`
 tmp_file=/tmp/$name
-markdown "$1"
+markdown_py -x toc "$1"
 #./router.convert.sh $tmp_file

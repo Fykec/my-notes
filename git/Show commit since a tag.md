@@ -6,3 +6,8 @@
 To show commits since TAG to current head:
 
 	git log TAG..HEAD
+	
+	
+Show commit count
+	
+	git log | grep "^commit" | wc -l 
