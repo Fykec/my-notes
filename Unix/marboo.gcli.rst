@@ -13,71 +13,32 @@ Marboo Shell
 
 .. code-block:: console
 
-    $ find scp
+    $ find "sql" .
 
+.. code-block:: guess
 
-
-----
-
-.. code-block:: console
-
-    $ find asihttprequest
-
-
+    .
+    ./AWK notes.md
+    ./Installing latest command-line emacs on Mac OS X or any Unix based system.md
+    ./SIGSEGV.md
+    
 
 ----
 
 .. code-block:: console
 
-    $ find asi
+    $ pwd
 
+.. code-block:: guess
 
-
-----
-
-.. code-block:: console
-
-    $ find git
-
-
+    /Users/jjyin/Marboo/Unix
+    
 
 ----
 
 .. code-block:: console
 
-    $ find call stack
+    $ cd ..
 
-
-
-----
-
-.. code-block:: console
-
-    $ find "asi"
-
-
-
-----
-
-.. code-block:: console
-
-    $ find "UIVIew*"
-
-
-
-----
-
-.. code-block:: console
-
-    $ find view
-
-
-
-----
-
-.. code-block:: console
-
-    $ ls | grep "uiview"
-
-
+(null)
 
